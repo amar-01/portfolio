@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amara Narayana Dasari — .NET &amp; iOS Developer</title>
+  <meta name="description" content="Junior .NET and iOS Developer — ASP.NET Core, Swift, REST APIs, SQL Server. Seeking trainee role at Head NFC Solutions, Hyderabad." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       LOADING SCREEN
+  ═══════════════════════════════════════════════ -->
+  <div class="loader" id="loader">
+    <div class="loader__inner">
+      <span class="loader__name">AND</span>
+      <div class="loader__bar"><div class="loader__fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════ -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__wordmark">
+        <span class="nav__wordmark-name">Amara</span>
+        <span class="nav__wordmark-dot">·</span>
+        <span class="nav__wordmark-role">Dev</span>
+      </a>
+
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#about"      class="nav__link">About</a></li>
+        <li><a href="#skills"     class="nav__link">Skills</a></li>
+        <li><a href="#projects"   class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#contact"    class="nav__link nav__link--cta">Open to Work</a></li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile nav overlay -->
+  <div class="nav__mobile" id="nav-mobile">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#fit">Role Fit</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero__bg-lines" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="container hero__layout">
+        <div class="hero__left">
+          <p class="hero__eyebrow animate-in" data-delay="0">
+            <span class="hero__eyebrow-dot"></span>
+            Available · Hyderabad · 2026
+          </p>
+
+          <h1 class="hero__title animate-in" data-delay="1">
+            <span class="hero__title-line">Amara</span>
+            <span class="hero__title-line hero__title-line--indent">Narayana</span>
+            <span class="hero__title-line">Dasari</span>
+          </h1>
+
+          <div class="hero__role animate-in" data-delay="2">
+            <div class="hero__role-tag">.NET</div>
+            <div class="hero__role-divider"></div>
+            <div class="hero__role-tag">iOS</div>
+            <div class="hero__role-divider"></div>
+            <div class="hero__role-tag">Java</div>
+          </div>
+
+          <p class="hero__desc animate-in" data-delay="3">
+            BTech graduate building structured, testable applications
+            in <strong>ASP.NET Core</strong> and <strong>Swift</strong>.
+            Every project I ship includes measurable performance gains —
+            not just working code.
+          </p>
+
+          <div class="hero__actions animate-in" data-delay="4">
+            <a href="#projects" class="btn btn--primary">See My Work</a>
+            <a href="#contact"  class="btn btn--outline">Get In Touch</a>
+          </div>
+        </div>
+
+        <div class="hero__right animate-in" data-delay="3">
+          <div class="hero__card">
+            <div class="hero__card-header">
+              <div class="hero__card-avatar">AN</div>
+              <div>
+                <div class="hero__card-name">Amara Narayana Dasari</div>
+                <div class="hero__card-tag">Junior Developer · Fresher</div>
+              </div>
+            </div>
+            <div class="hero__card-divider"></div>
+            <div class="hero__card-stat-row">
+              <div class="hero__card-stat">
+                <div class="hero__card-stat-val">4+</div>
+                <div class="hero__card-stat-label">Projects</div>
+              </div>
+              <div class="hero__card-stat">
+                <div class="hero__card-stat-val">80%</div>
+                <div class="hero__card-stat-label">BTech GPA</div>
+              </div>
+              <div class="hero__card-stat">
+                <div class="hero__card-stat-val">2nd</div>
+                <div class="hero__card-stat-label">Hackathon</div>
+              </div>
+            </div>
+            <div class="hero__card-divider"></div>
+            <ul class="hero__card-checklist">
+              <li>ASP.NET Core MVC + C#</li>
+              <li>Swift + UIKit + Core Data</li>
+              <li>REST APIs + SQL Server</li>
+              <li>Git · SDLC · Unit Testing</li>
+            </ul>
+            <div class="hero__card-footer">
+              <span class="hero__card-status-dot"></span>
+              Open for Trainee &amp; Internship Roles
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll-hint animate-in" data-delay="5">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         TICKER BAND
+    ═══════════════════════════════════════════════ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>ASP.NET Core</span><span class="ticker__sep">◆</span>
+        <span>Swift &amp; UIKit</span><span class="ticker__sep">◆</span>
+        <span>C# MVC</span><span class="ticker__sep">◆</span>
+        <span>SQL Server</span><span class="ticker__sep">◆</span>
+        <span>Java OOP</span><span class="ticker__sep">◆</span>
+        <span>REST APIs</span><span class="ticker__sep">◆</span>
+        <span>Core Data</span><span class="ticker__sep">◆</span>
+        <span>Entity Framework</span><span class="ticker__sep">◆</span>
+        <span>SDLC</span><span class="ticker__sep">◆</span>
+        <span>Unit Testing</span><span class="ticker__sep">◆</span>
+        <span>Git &amp; GitHub</span><span class="ticker__sep">◆</span>
+        <span>Xcode &amp; Visual Studio</span><span class="ticker__sep">◆</span>
+        <!-- duplicate for seamless loop -->
+        <span>ASP.NET Core</span><span class="ticker__sep">◆</span>
+        <span>Swift &amp; UIKit</span><span class="ticker__sep">◆</span>
+        <span>C# MVC</span><span class="ticker__sep">◆</span>
+        <span>SQL Server</span><span class="ticker__sep">◆</span>
+        <span>Java OOP</span><span class="ticker__sep">◆</span>
+        <span>REST APIs</span><span class="ticker__sep">◆</span>
+        <span>Core Data</span><span class="ticker__sep">◆</span>
+        <span>Entity Framework</span><span class="ticker__sep">◆</span>
+        <span>SDLC</span><span class="ticker__sep">◆</span>
+        <span>Unit Testing</span><span class="ticker__sep">◆</span>
+        <span>Git &amp; GitHub</span><span class="ticker__sep">◆</span>
+        <span>Xcode &amp; Visual Studio</span><span class="ticker__sep">◆</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════════════════ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-label reveal">01 — About</div>
+
+        <div class="about__layout">
+          <div class="about__heading-col reveal">
+            <h2 class="section-title">Not just code.<br/><em>Engineered outcomes.</em></h2>
+            <div class="about__accent-block">
+              <div class="about__accent-num">80%</div>
+              <div class="about__accent-text">BTech · AI &amp; ML<br/>NRI Institute of Technology<br/>No Active Backlogs</div>
+            </div>
+          </div>
+
+          <div class="about__body-col reveal">
+            <p>
+              I'm a final-year BTech student specializing in <strong>Artificial Intelligence &amp; Machine Learning</strong>, with a deliberate focus on application development in <strong>.NET and iOS</strong>. My academic performance reflects discipline — 80% score, no backlogs, graduating 2026.
+            </p>
+            <p>
+              What sets me apart from other freshers: I treat every project like a production deployment. I follow structured <strong>SDLC practices</strong>, write maintainable layered architecture, and measure the impact of my work. My projects report specific improvements — not vague claims.
+            </p>
+            <p>
+              I'm actively seeking a <strong>Junior Developer trainee role</strong> where structured training meets performance-based growth. I'm on-site ready in Hyderabad, and I'm the kind of developer who earns conversion — not just completes the training period.
+            </p>
+
+            <div class="about__pillars">
+              <div class="about__pillar">
+                <div class="about__pillar-icon">⚙</div>
+                <div class="about__pillar-label">.NET Focused</div>
+              </div>
+              <div class="about__pillar">
+                <div class="about__pillar-icon">📱</div>
+                <div class="about__pillar-label">iOS Ready</div>
+              </div>
+              <div class="about__pillar">
+                <div class="about__pillar-icon">☕</div>
+                <div class="about__pillar-label">Java Proficient</div>
+              </div>
+              <div class="about__pillar">
+                <div class="about__pillar-icon">🔬</div>
+                <div class="about__pillar-label">SDLC Disciplined</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         SKILLS
+    ═══════════════════════════════════════════════ -->
+    <section class="section section--tinted" id="skills">
+      <div class="container">
+        <div class="section-label reveal">02 — Technical Skills</div>
+        <h2 class="section-title reveal">Built for this <em>exact role.</em></h2>
+
+        <div class="skills__grid">
+
+          <div class="skill-block reveal">
+            <div class="skill-block__header">
+              <span class="skill-block__index">01</span>
+              <h3 class="skill-block__title">.NET Development</h3>
+              <span class="skill-block__badge skill-block__badge--primary">JD Match</span>
+            </div>
+            <p class="skill-block__desc">The primary stack required by this role. Hands-on experience building CRUD web apps with layered architecture, RESTful endpoints, and ORM integration.</p>
+            <div class="skill-block__tags">
+              <span class="tag tag--primary">C#</span>
+              <span class="tag tag--primary">ASP.NET Core</span>
+              <span class="tag tag--primary">MVC Architecture</span>
+              <span class="tag">Web API Development</span>
+              <span class="tag">Entity Framework</span>
+              <span class="tag">Layered Architecture</span>
+            </div>
+          </div>
+
+          <div class="skill-block reveal">
+            <div class="skill-block__header">
+              <span class="skill-block__index">02</span>
+              <h3 class="skill-block__title">iOS Development</h3>
+              <span class="skill-block__badge skill-block__badge--secondary">JD Match</span>
+            </div>
+            <p class="skill-block__desc">Full iOS app development cycle: UI design, data persistence, API integration, lifecycle management, and Git-based version control.</p>
+            <div class="skill-block__tags">
+              <span class="tag tag--secondary">Swift</span>
+              <span class="tag tag--secondary">UIKit</span>
+              <span class="tag tag--secondary">Core Data</span>
+              <span class="tag">ViewController Lifecycle</span>
+              <span class="tag">Navigation Stack</span>
+              <span class="tag">REST API Integration</span>
+            </div>
+          </div>
+
+          <div class="skill-block reveal">
+            <div class="skill-block__header">
+              <span class="skill-block__index">03</span>
+              <h3 class="skill-block__title">Java &amp; OOP</h3>
+              <span class="skill-block__badge skill-block__badge--primary">JD Mandatory</span>
+            </div>
+            <p class="skill-block__desc">Active competitive programmer using Java on LeetCode and HackerRank. Deep command of OOP principles applied across all projects.</p>
+            <div class="skill-block__tags">
+              <span class="tag tag--primary">Java</span>
+              <span class="tag">Encapsulation</span>
+              <span class="tag">Inheritance</span>
+              <span class="tag">Polymorphism</span>
+              <span class="tag">Abstraction</span>
+              <span class="tag">Data Structures</span>
+            </div>
+          </div>
+
+          <div class="skill-block reveal">
+            <div class="skill-block__header">
+              <span class="skill-block__index">04</span>
+              <h3 class="skill-block__title">Database &amp; Backend</h3>
+            </div>
+            <p class="skill-block__desc">Designed and optimized SQL schemas, wrote performance-tuned queries, and integrated backend databases with web and mobile applications.</p>
+            <div class="skill-block__tags">
+              <span class="tag tag--primary">SQL Server</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">CRUD Operations</span>
+              <span class="tag">Query Optimization</span>
+              <span class="tag">Data Modeling</span>
+            </div>
+          </div>
+
+          <div class="skill-block reveal">
+            <div class="skill-block__header">
+              <span class="skill-block__index">05</span>
+              <h3 class="skill-block__title">Engineering Practices</h3>
+            </div>
+            <p class="skill-block__desc">I follow structured SDLC from requirements analysis to post-deployment review. Not a coder who ships and forgets — a developer who owns outcomes.</p>
+            <div class="skill-block__tags">
+              <span class="tag">SDLC</span>
+              <span class="tag">Unit Testing</span>
+              <span class="tag">Debugging</span>
+              <span class="tag">Performance Optimization</span>
+              <span class="tag">Code Refactoring</span>
+              <span class="tag">Root Cause Analysis</span>
+            </div>
+          </div>
+
+          <div class="skill-block reveal">
+            <div class="skill-block__header">
+              <span class="skill-block__index">06</span>
+              <h3 class="skill-block__title">Tools &amp; Collaboration</h3>
+            </div>
+            <p class="skill-block__desc">Comfortable in both .NET and iOS development environments. Uses Git for modular version control across all projects, including team-based internship work.</p>
+            <div class="skill-block__tags">
+              <span class="tag">Git &amp; GitHub</span>
+              <span class="tag">Visual Studio</span>
+              <span class="tag">Xcode</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Python</span>
+              <span class="tag">C++</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         PROJECTS
+    ═══════════════════════════════════════════════ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-label reveal">03 — Projects</div>
+        <h2 class="section-title reveal">Work with <em>measurable results.</em></h2>
+
+        <!-- Featured iOS -->
+        <article class="project project--featured reveal">
+          <div class="project__meta">
+            <span class="project__number">01</span>
+            <span class="project__type">iOS Application · Featured</span>
+          </div>
+          <div class="project__body">
+            <div class="project__left">
+              <h3 class="project__title">Smart Task Manager</h3>
+              <p class="project__summary">
+                A multi-screen iOS productivity application built ground-up with Swift and UIKit. Demonstrates complete iOS development competency: persistent storage via Core Data, live REST API synchronization, priority-based task management, and full MVC separation. Followed structured SDLC including requirement analysis, design, iterative testing, and deployment.
+              </p>
+              <div class="project__stack">
+                <span class="tag">Swift</span>
+                <span class="tag">UIKit</span>
+                <span class="tag">Core Data</span>
+                <span class="tag">REST API</span>
+                <span class="tag">MVC</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+            <div class="project__right">
+              <div class="project__metrics">
+                <div class="project__metric">
+                  <span class="project__metric-val">35%</span>
+                  <span class="project__metric-label">Faster task rendering</span>
+                </div>
+                <div class="project__metric">
+                  <span class="project__metric-val">40%</span>
+                  <span class="project__metric-label">Fewer runtime crashes</span>
+                </div>
+                <div class="project__metric">
+                  <span class="project__metric-val">100%</span>
+                  <span class="project__metric-label">SDLC coverage</span>
+                </div>
+              </div>
+              <div class="project__decisions">
+                <div class="project__decisions-title">Engineering Decisions</div>
+                <ul>
+                  <li>Chose Core Data over UserDefaults for structured, queryable persistence</li>
+                  <li>Isolated the network layer from ViewControllers for clean testability</li>
+                  <li>Added input validation gates before all Core Data write operations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- .NET -->
+        <article class="project reveal">
+          <div class="project__meta">
+            <span class="project__number">02</span>
+            <span class="project__type">ASP.NET Core · Full-Stack Web</span>
+          </div>
+          <div class="project__body project__body--simple">
+            <div class="project__left">
+              <h3 class="project__title">Student Management System</h3>
+              <p class="project__summary">
+                A production-patterned CRUD web application using ASP.NET Core MVC, C#, and SQL Server. Implemented RESTful API endpoints for all CRUD operations, designed layered architecture separating data access from business logic, and applied OOP principles throughout. Validated with unit testing and structured debugging across edge cases.
+              </p>
+              <div class="project__stack">
+                <span class="tag">ASP.NET Core</span>
+                <span class="tag">C#</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">Entity Framework</span>
+                <span class="tag">MVC</span>
+                <span class="tag">REST API</span>
+              </div>
+            </div>
+            <div class="project__right project__right--metrics-row">
+              <div class="project__metric">
+                <span class="project__metric-val">30%</span>
+                <span class="project__metric-label">Code maintainability</span>
+              </div>
+              <div class="project__metric">
+                <span class="project__metric-val">25%</span>
+                <span class="project__metric-label">DB query speed</span>
+              </div>
+              <div class="project__metric">
+                <span class="project__metric-val">40%</span>
+                <span class="project__metric-label">Logic error reduction</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Python AI -->
+        <article class="project reveal">
+          <div class="project__meta">
+            <span class="project__number">03</span>
+            <span class="project__type">Python · Flask · NLP · Backend</span>
+          </div>
+          <div class="project__body project__body--simple">
+            <div class="project__left">
+              <h3 class="project__title">AI Resume Screening System</h3>
+              <p class="project__summary">
+                Flask-based enterprise-style REST backend with an NLP-driven skill-matching algorithm that compares candidate profiles against job requirements. Automated 70% of manual shortlisting logic. Iterative debugging and API refinement improved response time by 30% post-deployment.
+              </p>
+              <div class="project__stack">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">NLP</span>
+                <span class="tag">REST API</span>
+                <span class="tag">SDLC</span>
+              </div>
+            </div>
+            <div class="project__right project__right--metrics-row">
+              <div class="project__metric">
+                <span class="project__metric-val">20%</span>
+                <span class="project__metric-label">Match accuracy</span>
+              </div>
+              <div class="project__metric">
+                <span class="project__metric-val">70%</span>
+                <span class="project__metric-label">Shortlisting automated</span>
+              </div>
+              <div class="project__metric">
+                <span class="project__metric-val">30%</span>
+                <span class="project__metric-label">API response speed</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ML -->
+        <article class="project reveal">
+          <div class="project__meta">
+            <span class="project__number">04</span>
+            <span class="project__type">Python · Scikit-learn · ML Pipeline</span>
+          </div>
+          <div class="project__body project__body--simple">
+            <div class="project__left">
+              <h3 class="project__title">Intelligent Anomaly Detection</h3>
+              <p class="project__summary">
+                Applied full SDLC methodology across design, implementation, testing, and deployment. Built ML-based detection models with complete data processing pipelines. Participated in post-deployment monitoring — demonstrating accountability that extends beyond initial delivery. Iterative debugging and performance tuning throughout.
+              </p>
+              <div class="project__stack">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">ML Pipelines</span>
+                <span class="tag">SDLC</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         EXPERIENCE
+    ═══════════════════════════════════════════════ -->
+    <section class="section section--tinted" id="experience">
+      <div class="container">
+        <div class="section-label reveal">04 — Experience &amp; Education</div>
+        <h2 class="section-title reveal">Proven in the <em>real world.</em></h2>
+
+        <div class="timeline">
+
+          <div class="timeline__item reveal">
+            <div class="timeline__left">
+              <div class="timeline__dot"></div>
+              <div class="timeline__period">4 Weeks · 2024</div>
+            </div>
+            <div class="timeline__right">
+              <div class="timeline__role">Summer Intern — Software Development</div>
+              <div class="timeline__org">Partner Company · Internship Programme</div>
+              <ul class="timeline__points">
+                <li>Contributed to mini-application development using core OOP and structured programming principles.</li>
+                <li>Reduced debugging turnaround time by <strong>25%</strong> through systematic root cause analysis.</li>
+                <li>Refactored legacy code using OOP best practices, improving readability by <strong>20%</strong>.</li>
+                <li>Collaborated with team members to enhance application logic efficiency and delivery quality.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__left">
+              <div class="timeline__dot"></div>
+              <div class="timeline__period">2022 – 2026</div>
+            </div>
+            <div class="timeline__right">
+              <div class="timeline__role">BTech — Artificial Intelligence &amp; Machine Learning</div>
+              <div class="timeline__org">NRI Institute of Technology · 80% · No Backlogs</div>
+              <ul class="timeline__points">
+                <li>Consistent 80% aggregate across all semesters — no active backlogs, graduating 2026.</li>
+                <li>Built 4 substantial projects spanning .NET, iOS, Python, and ML as self-directed learning.</li>
+                <li>Awarded <strong>2nd Place</strong> in an International Hackathon — delivered under strict time constraints.</li>
+                <li>Active LeetCode and HackerRank problem-solver in Java — continuous algorithmic skill development.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         WHY ME — JD FIT MATRIX
+    ═══════════════════════════════════════════════ -->
+    <section class="section" id="fit">
+      <div class="container">
+        <div class="section-label reveal">05 — Role Fit</div>
+        <h2 class="section-title reveal">Every JD requirement, <em>matched.</em></h2>
+
+        <div class="fit-grid reveal">
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">Basic knowledge of Java</div>
+            <div class="fit-item__evidence">Active on LeetCode &amp; HackerRank in Java. OOP principles applied in all projects.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">Knowledge of .NET</div>
+            <div class="fit-item__evidence">Built full-stack CRUD app with ASP.NET Core MVC, C#, Entity Framework, SQL Server.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">Interest in iOS development</div>
+            <div class="fit-item__evidence">Built a multi-screen iOS app in Swift/UIKit/Core Data — independently, not a tutorial project.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">Problem-solving skills</div>
+            <div class="fit-item__evidence">Hackathon 2nd place. Systematic debugging approach. Measurable defect reduction across all projects.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">Communication &amp; teamwork</div>
+            <div class="fit-item__evidence">Internship collaboration. Hackathon team delivery. Strong communication noted explicitly in resume.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">Good learning attitude</div>
+            <div class="fit-item__evidence">4 cross-platform projects (iOS + .NET + Python + ML) built while maintaining 80% BTech score.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">On-site · Hyderabad</div>
+            <div class="fit-item__evidence">Based in Hyderabad. Explicitly willing to work on-site. No relocation required.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+          <div class="fit-item fit-item--match">
+            <div class="fit-item__label">Open to structured training</div>
+            <div class="fit-item__evidence">Explicitly open to training programmes with performance-based full-time conversion roles.</div>
+            <div class="fit-item__status">✓ Confirmed</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         CONTACT
+    ═══════════════════════════════════════════════ -->
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <div class="contact__layout">
+          <div class="contact__left reveal">
+            <div class="section-label">06 — Let's Talk</div>
+            <h2 class="contact__title">Ready to join<br/><em>Head NFC Solutions.</em></h2>
+            <p class="contact__desc">
+              I'm actively applying for the Junior Developer (.NET / iOS) trainee position — JOB-2026-00009. Based in Hyderabad, available immediately, on-site ready. Let's connect.
+            </p>
+          </div>
+          <div class="contact__right reveal">
+            <a href="mailto:amaranarayana363@gmail.com" class="contact__card">
+              <div class="contact__card-icon">✉</div>
+              <div>
+                <div class="contact__card-label">Email</div>
+                <div class="contact__card-value">amaranarayana363@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:+918500723001" class="contact__card">
+              <div class="contact__card-icon">☎</div>
+              <div>
+                <div class="contact__card-label">Phone</div>
+                <div class="contact__card-value">850-072-3001</div>
+              </div>
+            </a>
+            <a href="https://github.com/amar-01" target="_blank" rel="noopener" class="contact__card">
+              <div class="contact__card-icon">⌥</div>
+              <div>
+                <div class="contact__card-label">GitHub</div>
+                <div class="contact__card-value">github.com/amar-01</div>
+              </div>
+            </a>
+            <a href="mailto:amaranarayana363@gmail.com" class="btn btn--primary btn--full">
+              Hire Me for This Role →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__name">Amara Narayana Dasari</span>
+      <span class="footer__sep">·</span>
+      <span>Hyderabad · 2026</span>
+      <span class="footer__sep">·</span>
+      <span>Applying for JOB-2026-00009</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
